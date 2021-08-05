@@ -94,3 +94,16 @@ def matrixElementsSum(matrix):
 print(matrixElementsSum([ [0, 1, 1, 2], 
                           [0, 5, 0, 0], 
                           [2, 0, 3, 3] ]))
+
+###########################################
+
+# Given an array of strings, return another array containing all of its longest strings.
+
+def allLongestStrings(inputArray):
+  m = max(len(str) for str in inputArray)
+  return [str for str in inputArray if len(str) == m]
+
+print(allLongestStrings(["aba", "aa", "ad", "vcd", "aba"]))
+
+###########################################
+
