@@ -25,3 +25,11 @@ def adjacentElementsProduct(inputArray):
 print(adjacentElementsProduct([3, 6, -2, -5, 7, 3]))
 
 ###########################################
+
+def shapeArea(n):
+  return n**2 + (n-1)**2
+
+print(shapeArea(5))
+
+###########################################
+
