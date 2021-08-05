@@ -107,3 +107,11 @@ print(allLongestStrings(["aba", "aa", "ad", "vcd", "aba"]))
 
 ###########################################
 
+# Given two strings, find the number of common characters between them.
+
+def commonCharacterCount(s1, s2):
+  return sum(min(s1.count(s), s2.count(s)) for s in set(s1))
+
+print(commonCharacterCount("aabcc", "adcaa"))
+
+###########################################
